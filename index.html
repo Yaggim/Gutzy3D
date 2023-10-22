@@ -11,7 +11,7 @@
     <body>
         <header>
             <nav>
-                <div class="container">
+                <div class="container-nav">
                     <div>
                         <img src="./assets/logo/logo-amarillo.png" alt="Logo" class="logo">
                     </div>
@@ -20,47 +20,34 @@
                     </button>
                     <ul class="nav-list" .nav-list_visible>
                         <li><a href="index.html" class="nav-menu-item">Inicio</a></li>
-                        <li><a href="#" class="nav-menu-item">Productos</a></li>
+                        <li><a href="pages\products.html" class="nav-menu-item">Productos</a></li>
                         <li><a href="#" class="nav-menu-item">Servicios</a></li>
                         <li><a href="pages\contact.html" class="nav-menu-item">Contacto</a></li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <section class="container-section">
-            <div class="card">
-                <img src="./assets/images/maceta-gatito.jpg" alt="Maceta gatito">
-                <h2>Maceta Gatito</h2>
-                <p>
-                    Podés pedirla en los colores
-                    que más te gusten.
-                </p>
-                <p class="price">$1000</p>
-                <button class="buy-button">Comprar</button>
+
+        <div class="container__slider">
+            <div class="container-slider">
+                <input type="radio" name="slider" id="item-1" checked>
+                <input type="radio" name="slider" id="item-2">
+                <input type="radio" name="slider" id="item-3">
+                
+                <div class="cards-slider">
+                    <label class="card-slider" for="item-1" id="selector-1">
+                        <img src="./assets/images/crash.jpg" class="img-slider" alt="crash">
+                    </label>
+                    <label class="card-slider" for="item-2" id="selector-2">
+                        <img src="./assets/images/maceta-gatito.jpg" class="img-slider" alt="maceta gatito">
+                    </label>
+                    <label class="card-slider" for="item-3" id="selector-3">
+                        <img src="./assets/images/robert-plant.png" class="img-slider" alt="robert plant">
+                    </label>
+                </div>
             </div>
-
-            <div class="card">
-                <img src="./assets/images/robert-plant.png" alt="Robert Plant">
-                <h2>Maceta Robert Plant</h2>
-                <p>
-                    Ideal para adornar dentro de casa.
-                </p>
-                <p class="price">$9500</p>
-                <button class="buy-button">Comprar</button>
-            </div>
-
-            <div class="card">
-                <img src="./assets/images/crash.jpg" alt="Crash">
-                <h2>Soporte Crash</h2>
-                <p>
-                    ¿Qué estás esperando para pedir el tuyo?
-                </p>
-                <p class="price">$39.99</p>
-                <button class="buy-button">Comprar</button>
-            </div>
-
-        </section>
-
+        </div>
+        
         <footer>
             <div class="footer-logo">
                 <img src="./assets/logo/logo-amarillo.png" alt="Logo" class="logo">
