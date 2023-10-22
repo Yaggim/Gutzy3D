@@ -16,6 +16,9 @@ body {
     font-family: 'Wildy Sans', sans-serif;
     margin-top: 3rem;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container-nav {
@@ -152,6 +155,7 @@ footer {
     padding: 2rem 0;
     text-align: center;
     margin: 0;
+    margin-top: auto;
 }
 
 footer p {
@@ -251,7 +255,7 @@ input[type=radio]{
 /*estilos seccion productos*/
 
 .container__slider {
-    margin: 8rem auto 1rem;
+    margin: 5rem;
 }
 
 .container-slider{
@@ -359,7 +363,7 @@ input[type=radio]{
     
 
     .container__slider {
-        margin-top: 3rem;
+        margin-top: 8rem;
         margin-bottom: 0px;
     }
     
@@ -382,8 +386,8 @@ input[type=radio]{
     
     .card-slider{
         position: absolute;
-        width: 60%;
-        height: 100%;
+        width: 80%;
+        height: 80%;
         left: 0;
         right: 0;
         margin: auto;
