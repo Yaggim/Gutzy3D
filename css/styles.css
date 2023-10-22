@@ -427,4 +427,16 @@ input[type=radio]{
         margin-bottom: 0.5rem; /* Menos margen inferior en dispositivos móviles */
     }
 
+    .quienes-somos h1 {
+        margin: 3rem 0; 
+        font-size: 50px;
+    }
+
+    .quienes-somos p {
+        font-size: 20px;
+    }
+
+    .contenido {
+        padding: 10px;
+    }
 }
