@@ -151,6 +151,7 @@ footer {
     color: #fff;
     padding: 2rem 0;
     text-align: center;
+    margin: 0;
 }
 
 footer p {
@@ -220,6 +221,30 @@ footer p {
 
 input[type=radio]{
     display: none;
+}
+
+
+/*Quienes somos sección*/
+.quienes-somos {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+}
+
+.quienes-somos h1 {
+    font-size: 40px;
+}
+
+.quienes-somos p {
+    font-size: 20px;
+}
+
+.contenido {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 
@@ -372,6 +397,17 @@ input[type=radio]{
         border-radius: 10px;
     }
 
+    .quienes-somos h1 {
+        font-size: 50px;
+    }
+
+    .quienes-somos p {
+        font-size: 20px;
+    }
+
+    .contenido {
+        padding: 10px;
+    }
 }
 
 @media (max-width: 700px) {
