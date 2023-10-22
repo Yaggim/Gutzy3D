@@ -398,6 +398,7 @@ input[type=radio]{
     }
 
     .quienes-somos h1 {
+        margin: 3rem 0; 
         font-size: 50px;
     }
 
