@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function () {
         form.querySelector(".buy-button").addEventListener("click", function (event) {
             event.preventDefault();
 
-            const quantity = parseFloat(form.querySelector("input[name='quantity']").value);
+            const quantity = form.querySelector("input[name='quantity']").value;
             const product_name = form.querySelector("input[name='product_name']").value;
-            const product_price = parseFloat(form.querySelector("input[name='product_price']").value);
+            const product_price = form.querySelector("input[name='product_price']").value;
             const total_price = quantity * product_price;
             const message = `¡Quiero comprar ${quantity} ${product_name} por un total de $${total_price.toFixed(2)}!`;
 
