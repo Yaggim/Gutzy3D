@@ -1,23 +1,27 @@
+/* Importa el archivo reset.css para restablecer los estilos predeterminados del navegador */
 @import "./reset.css";
 
+/* Definición de la fuente personalizada 'Wildy Sans' */
 @font-face {
     font-family: 'Wildy Sans';
     src: url('../assets/fonts/Wildy\ Sans.otf') format('opentype');
 }
 
+/* Establece estilos predeterminados para todos los elementos */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Estilos generales */
+/* Estilos generales para el cuerpo de la página */
 body {
     font-family: 'Wildy Sans', sans-serif;
     margin-top: 3rem;
     padding: 0;
 }
 
+/* Estilos del contenedor de navegación */
 .container-nav {
     max-width: 100%;
     margin: 0 auto;
@@ -27,7 +31,7 @@ body {
     align-items: center;
 }
 
-/* Estilos del encabezado */
+/* Estilos del encabezado de la página */
 header {
     background-color: #F1C76B;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -39,6 +43,7 @@ header {
     left: 0;
 }
 
+/* Estilos del logotipo en el encabezado */
 .logo {
     width: 100px;
     border-radius: 50%;
@@ -49,11 +54,13 @@ header {
     color: #333;
 }
 
+/* Estilos de la barra de navegación */
 .nav {
     display: flex;
     justify-content: space-between;
 }
 
+/* Estilos del botón de alternancia de la barra de navegación */
 .nav-toggle {
     background-color: #F1C76B;
     font-size: 30px;
@@ -61,6 +68,7 @@ header {
     cursor: pointer;
 }
 
+/* Estilos de la lista de navegación */
 nav ul {
     list-style: none;
     padding: 0;
@@ -76,6 +84,7 @@ nav ul li:last-child {
     margin-right: 0;
 }
 
+/* Estilos de los enlaces de la lista de navegación */
 nav ul li a {
     font-size: 1.375rem;
     text-decoration: none;
@@ -88,6 +97,7 @@ nav ul li a:hover {
     color: #f39c12;
 }
 
+/* Estilos del contenedor de sección general */
 .container-section {
     padding-top: 4rem;
     display: flex;
@@ -96,7 +106,7 @@ nav ul li a:hover {
     height: 100vh;
 }
 
-/*Estilos para las tarjetas*/
+/* Estilos de las tarjetas generales */
 .card {
     border: 1px solid #ddd;
     padding: 1rem;
@@ -146,6 +156,7 @@ nav ul li a:hover {
     background-color: #0056b3;
 }
 
+/* Estilos del pie de página */
 footer {
     background-color: #333;
     color: #fff;
@@ -159,7 +170,7 @@ footer p {
     font-size: 0.875rem;
 }
 
-/*estilos del form*/
+/* Estilos del formulario de contacto */
 .contact-form {
     width: 100%;
     padding-top: 1rem;
@@ -196,6 +207,7 @@ footer p {
     border-radius: 3px;
 }
 
+/* Estilos del botón de enviar en el formulario de contacto */
 .contact-form button {
     background-color: #007BFF;
     color: white;
@@ -205,10 +217,12 @@ footer p {
     cursor: pointer;
 }
 
+/* Estilos del botón de enviar en el formulario de contacto al pasar el mouse */
 .contact-form button:hover {
     background-color: #0056b3;
 }
 
+/* Estilos del contenedor del slider */
 .container__slider{
     max-width: 1000px;
     height: 500px;
@@ -219,12 +233,12 @@ footer p {
     padding: 30px 10px;
 }
 
+/* Estilos para los botones de radio (ocultar) */
 input[type=radio]{
     display: none;
 }
 
-
-/*Quienes somos sección*/
+/* Estilos de la sección 'Quiénes somos' */
 .quienes-somos {
     background-color: #f5f5f5;
     padding: 20px;
@@ -239,6 +253,7 @@ input[type=radio]{
     font-size: 20px;
 }
 
+/* Estilos del contenido general */
 .contenido {
     max-width: 800px;
     margin: 0 auto;
@@ -247,9 +262,7 @@ input[type=radio]{
     border-radius: 5px;
 }
 
-
-/*estilos seccion productos*/
-
+/* Estilos del contenedor del slider en la sección de productos */
 .container__slider {
     margin: 8rem auto 1rem;
 }
@@ -288,7 +301,7 @@ input[type=radio]{
     border-radius: 10px;
 }
 
-
+/* Animaciones del slider */
 #item-2:checked ~ .cards-slider #selector-1,
 #item-1:checked ~ .cards-slider #selector-3,
 #item-3:checked ~ .cards-slider #selector-2{
@@ -312,9 +325,8 @@ input[type=radio]{
     z-index: 1;
 }
 
-
+/* Estilos responsivos para pantallas pequeñas (máximo 768px) */
 @media (max-width: 768px) {
-
     .container-section {
         width: 100%;
         height: auto;
@@ -356,13 +368,12 @@ input[type=radio]{
     .contact-form {
         width: 100%;
     }
-    
 
     .container__slider {
         margin-top: 3rem;
         margin-bottom: 0px;
     }
-    
+
     .container-slider{
         width: 100%;
         max-width: 350px;
@@ -373,13 +384,13 @@ input[type=radio]{
         justify-content: center;
         align-items: center;
     }
-    
+
     .cards-slider{
         position: relative;
         width: 100%;
         height: 100%;
     }
-    
+
     .card-slider{
         position: absolute;
         width: 60%;
@@ -390,7 +401,7 @@ input[type=radio]{
         cursor: pointer;
         transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     }
-    
+
     .img-slider{
         width: 100%;
         height: 100%;
@@ -411,8 +422,8 @@ input[type=radio]{
     }
 }
 
+/* Estilos responsivos para pantallas muy pequeñas (máximo 700px) */
 @media (max-width: 700px) {
-
     .contact-form {
         padding: 1rem; /* Menos relleno en dispositivos móviles */
         width: 75%;
