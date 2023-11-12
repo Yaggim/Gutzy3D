@@ -24,7 +24,7 @@ Gutzy3D ofrece una experiencia de compra en línea única con una variedad de pr
 
 ¡Estamos aquí para ayudarte! Ponte en contacto con nosotros:
 
-- **Correo Electrónico**: info@gutzy3d.com
+- **Correo Electrónico**: gutzy3d@gmail.com
 - **Instagram**: [Gutzy3D Instagram](https://www.instagram.com/gutzy3d)
 
 ## Reconocimientos
